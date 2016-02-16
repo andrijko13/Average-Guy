@@ -51,7 +51,13 @@ This method, which is more tedious, requires you to make the project from scratc
   - TutorialScene.m
   - Images.xcassets
   - Main.storyboard
-8. XCODE generated a folder titled 'Supporting Files'. Copy the contents of /Average-Guy/Average-Guy/Supporting Files into this folder
+8. XCODE generated a folder titled 'Supporting Files'. Copy all of the contents of /Average-Guy/Average-Guy/ that have the following extensions into this folder:
+  - .png
+  - .atlas
+  - .ttf
+  - .sks
+  - .wav
+These files are images, sound files, and particle files that are used within the game. If, during execution, a red 'x' on a white background is seen, then one of these was not copied correctly.
 9. Go back to the project settings tab on the left hand side of the screen. Again, under Targets, hit Average-Guy. Edit the following:
   - In the Deployment Info section, select only Portrait and Upside Down
   - Under App Icons and Launch Images, hit the 'use assets' button and select AppIcon and LaunchImage, respectively. (In some cases, this     might not work on the first try, in which case you might need to hit 'don't use assets catalog' before doing this step)
